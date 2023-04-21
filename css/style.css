@@ -18,18 +18,19 @@ body {
 
 #featuredProduct {
   grid-area: featuredProduct;
+
 }
 
 #secondaryProduct {
   grid-area: secondaryProduct;
-  background-image: url(/images/alvaro-reyes-KxVlKiqQObU-unsplash.jpg);
+  background-image: url("../images/alvaro-reyes-KxVlKiqQObU-unsplash.jpg");
 }
 
 #CTA {
   grid-area: CTA;
   justify-content: space-around;
   cursor: pointer;
-  background-image: url(/images/ian-schneider-TamMbr4okv4-unsplash.jpg)
+  background-image: url("../images/ian-schneider-TamMbr4okv4-unsplash.jpg")
 }
 
 #headline {
@@ -76,12 +77,12 @@ body {
 
 #bookcases {
   grid-area: bookcases;
-  background-image: url(/images/christopher-farrugia-B1BZ_Bz-I8c-unsplash.jpg);
+  background-image: url("../images/christopher-farrugia-B1BZ_Bz-I8c-unsplash.jpg");
 
 }
 #bedroom {
   grid-area: bedroom;
-  background-image: url(/images/ASPCA.jpg);
+  background-image: url("../images/ASPCA.jpg");
 }
 
 #couches {
@@ -101,7 +102,7 @@ body {
   margin: 5px;
   cursor: pointer;
   display: grid;
-  align-content: End;
+  align-content: flex-end;
 }
 
 .heading {
